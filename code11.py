@@ -6,11 +6,13 @@ import numpy as np          # For numerical operations
 # This simulates the real-world CSV with slightly dirty and varied data
 data = {
     'id': [1, 2, 3, 4, 5, 6, 7, 8],
-    'name': ['Alice', 'Bob', 'Charlie', 'David', 'Eva', 'Frank', 'Grace', None],  # Note the None (missing value)
+    'name': ['Alice', 'Bob', 'Charlie', 'David', 'Eva', 'Frank', 'Grace', None], 
+    # Note the None (missing value)
     'category': ['A', 'B', 'A', 'B', 'A', 'A', 'B', 'A'],
     'sales': [100, 200, 150, 180, 120, 130, 220, 110],
     'region': ['East', 'West', 'East', 'West', 'East', 'West', 'East', 'East'],
-    'tags': ['promo,new', 'featured', 'promo', 'promo,old', 'new', '', 'featured,promo', 'promo'],
+    'tags': ['promo,new', 'featured', 'promo', 'promo,old', 'new', '', 
+             'featured,promo', 'promo'],
     'date': ['2023-01-01', '2023-01-02', '2023-01-03', '2023-01-04',
              '2023-01-05', '2023-01-06', '2023-01-07', '2023-01-08'],
     'score': [90, 80, 70, None, 60, 75, 85, 55]
